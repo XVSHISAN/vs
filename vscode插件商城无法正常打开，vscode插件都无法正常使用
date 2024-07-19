@@ -1,0 +1,22 @@
+在C:\Windows\System32\drivers\etc下找到hosts文件，使用vscode打开
+复制粘贴这段
+# VSCode
+20.43.132.130  update.code.visualstudio.com   # Visual Studio Code download and update server
+13.69.68.34  code.visualstudio.com   # Visual Studio Code documentation
+104.119.90.120  go.microsoft.com    #  Microsoft link forwarding service
+20.150.83.4  vscode.blob.core.windows.net    # Visual Studio Code blob storage, used for remote server
+13.107.42.18 marketplace.visualstudio.com    # Visual Studio Marketplace
+191.238.172.191 *.gallery.vsassets.io    # Visual Studio Marketplace
+191.238.172.191 *.gallerycdn.vsassets.io     # Visual Studio Marketplace
+40.70.164.17 rink.hockeyapp.net      # Crash reporting service
+13.75.34.168 bingsettingssearch.trafficmanager.net   # In-product settings search
+138.91.148.66 vscode.search.windows.net    # In-product settings search
+raw.githubusercontent.com       # GitHub repository raw file access
+50.17.211.206 vsmarketplacebadge.apphb.com    # Visual Studio Marketplace badge service
+117.18.232.200 az764295.vo.msecnd.net    # Visual Studio Code download CDN
+42.80.217.156 download.visualstudio.microsoft.com  # Visual Studio download server, provides dependencies for some VS Code extensions (C++, C#)
+13.67.9.5 vscode-sync.trafficmanager.net     # Visual Studio Code Settings Sync service
+13.69.68.64  vscode-sync-insiders.trafficmanager.net  # Visual Studio Code Settings Sync service (Insiders)
+13.107.5.93 default.exp-tas.com     #  Visual Studio Code Experiment Service, used to provide experimental user experiences
+后面有相应的注释
+保存一下，这个想要管理员的权限，保存成功后，安全中心会给提示，通过以下就欧克了
